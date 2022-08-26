@@ -1,43 +1,16 @@
-hola
-ernesto perez mi papa
-Windows PowerShell
-Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
-
-PS C:\Users\salai200\Desktop\bg> git commit -m "commit inicial"
-[master (root-commit) ad1f288] commit inicial
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 index.html
-PS C:\Users\salai200\Desktop\bg> git add index.html
-PS C:\Users\salai200\Desktop\bg> git commit -m "otro commit"
-[master 1ccb976] otro commit
- 1 file changed, 1 insertion(+)
-PS C:\Users\salai200\Desktop\bg> git remote add bg https://github.com/Christian1Baez/bg.git      
-PS C:\Users\salai200\Desktop\bg> git push bg
-fatal: The current branch master has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream bg master
-
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
-
-Enumerating objects: 6, done.
-Counting objects: 100% (6/6), done.
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (6/6), 436 bytes | 436.00 KiB/s, done.
-Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/Christian1Baez/bg.git
- * [new branch]      master -> master
-branch 'master' set up to track 'bg/master'.
-PS C:\Users\salai200\Desktop\bg> git add index.html
-PS C:\Users\salai200\Desktop\bg>  git commit -m "otro commit 2"
-[master d851ba5] otro commit 2
- 1 file changed, 1 insertion(+)
-PS C:\Users\salai200\Desktop\bg> git push bg
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Writing objects: 100% (3/3), 274 bytes | 274.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/Christian1Baez/bg.git
-   1ccb976..d851ba5  master -> master
-PS C:\Users\salai200\Desktop\bg> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mi_alineacion">
+    <h1 class="color_contador">Contador</h1>
+    <h2 class="color_numero" id="mi_numero">100</h2>
+    <button id="mi_boton">click</button>
+    <script src="man.js"></script>
+</body>
+</html>
